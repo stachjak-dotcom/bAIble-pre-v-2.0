@@ -4,7 +4,7 @@
 |---|---|---|
 | bAIble | Governance, rules, guardrails, evidence, verification, learning | Established framework |
 | rAIda | Orchestration/coordination layer | Concept; implementation-dependent |
-| FederAItion | Integrated execution environment | Concept; implementation-dependent |
+| Integration layer | Project-specific execution/integration layer | Concept; implementation-dependent |
 | UnAiversed | Contextual/relational knowledge space | Concept; implementation-dependent |
 | Reality Check | Verification mechanism for evidence, assumptions, alternatives and uncertainty | Evolving mechanism |
 | Gray data | Unresolved input that is not automatically treated as fact, requirement, or conclusion | Evolving concept |
