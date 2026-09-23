@@ -1,4 +1,4 @@
-# bAIble pre-v2 — Core
+# bAIble v2 — Core
 
 ## Purpose
 
@@ -21,6 +21,8 @@ Failure path: `STOP → DIAGNOSE → REVISE → VERIFY`.
 7. Separate implementation from verification.
 8. Preserve important project memory outside the conversation.
 9. Distinguish experiment from production.
+10. Establish a safe destination for project-specific information before collecting substantial project data.
+11. Route project information to the correct private workspace or project source of truth; never use the public bAIble repository as private memory.
 10. Use explicit stop conditions.
 11. Never claim work or verification that did not occur.
 12. Reuse established project patterns unless there is a documented reason not to.
