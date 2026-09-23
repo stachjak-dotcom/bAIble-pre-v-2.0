@@ -12,10 +12,12 @@ If you are new:
 2. Follow [BOOTSTRAP.md](BOOTSTRAP.md) — create your own workspace.
 3. Read [TERMINOLOGY.md](TERMINOLOGY.md) — vocabulary and status meanings.
 4. Use [PROVENANCE.md](PROVENANCE.md) — record where important claims come from.
-5. Use [EXPERIMENTS.md](EXPERIMENTS.md) — run bounded, reversible experiments.
-6. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
-7. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — turn failures into validated improvements.
-8. Read [ARCHITECTURE.md](ARCHITECTURE.md) when deciding which layers you actually need.
+5. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
+6. Use [VERIFICATION.md](VERIFICATION.md) — record what was actually checked.
+7. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
+8. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
+9. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
+10. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
 
 ## The core idea
 
@@ -61,6 +63,8 @@ Important statements should distinguish their status:
 - **PROPOSED** — a design idea awaiting validation.
 - **PRIVATE** — intentionally excluded from this public repository.
 
+See [STATUS_TRANSITIONS.md](STATUS_TRANSITIONS.md) for promotion and regression rules.
+
 ## Reality Check
 
 When evidence is incomplete, do not manufacture continuity or certainty.
@@ -74,5 +78,7 @@ Ask:
 - What alternative explanation matters?
 - What would falsify the conclusion?
 - What has actually been verified?
+
+For the operational record and outcomes, use [REALITY_CHECK.md](REALITY_CHECK.md).
 
 **Reality outranks the document.**
