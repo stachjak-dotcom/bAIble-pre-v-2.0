@@ -24,6 +24,7 @@ Use this checklist before treating a public bAIble revision as complete.
 - [ ] A fresh participant can create a minimal workspace.
 - [ ] A bounded task can be run without inventing core governance.
 - [ ] Handoff and verification can be recorded.
+- [ ] Material project rules have an explicit decision record rather than being silently inferred.
 - [ ] The Bootstrap Acceptance Test is executable.
 
 ## Architecture
