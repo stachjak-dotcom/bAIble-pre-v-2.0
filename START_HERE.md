@@ -5,19 +5,26 @@ bAIble is a public, portable framework for building AI collaboration safely and 
 
 **AI can help you act, but fluent output is not proof.**
 
+## The first thing to do with your own agent
+Give your agent the link to this public bAIble repository and tell it:
+
+> “Read bAIble from the public repository. I am starting a new project and I have no existing infrastructure. Teach me what I need, help me create the private repositories/workspace for my project, and keep my private information out of the public bAIble.”
+
+The agent should then guide you rather than expecting you to already know how repositories, branches, privacy, or project memory work.
+
 ## Your first loop
 Start with the smallest useful system:
 
-HUMAN → AGENT → bAIble → PROJECT
+HUMAN → AGENT → bAIble → PRIVATE WORKSPACE → PRIVATE PROJECT
 
 Use:
 UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST
 
-You do not need every architectural layer before doing useful work.
+The public bAIble is the instruction layer. Your own private workspace and project repository are where your actual information, decisions, experiments, evidence, and implementation belong.
 
 ## The layers
 - **bAIble** — governance and learning.
-- **rAIda** — optional orchestration for agents, tools, tasks, and workflow state.
+- **rAIda** — optional relational/orchestration layer for agents, tools, tasks, and workflow state.
 - **UnAiversed** — optional relational context for observations, decisions, projects, experiments, and lessons.
 - **Integration layer** — optional infrastructure connecting repositories, tools, CI, and execution environments.
 - **Watchdog** — optional monitoring/detection added after a workflow is observable.
@@ -27,17 +34,20 @@ These are concepts and contracts, not mandatory software packages.
 
 ## What your agent should do
 1. Ask what you are trying to achieve.
-2. Separate what you said from what it inferred.
-3. Explain unfamiliar terms before relying on them.
-4. Identify what it can and cannot access.
-5. Check authority before material actions.
-6. Start with one small, reversible step.
-7. Show evidence for important results.
-8. Keep unknowns visible.
-9. Ask for a human decision when the decision is yours.
-10. Leave a durable record when the work matters.
+2. Explain the public/private split before asking you to store information.
+3. Help you create an appropriate **private workspace** and **private project repository**.
+4. Explain what belongs in each place.
+5. Separate what you said from what it inferred.
+6. Explain unfamiliar terms before relying on them.
+7. Identify what it can and cannot access.
+8. Check authority before material actions.
+9. Start with one small, reversible step.
+10. Show evidence for important results.
+11. Keep unknowns visible.
+12. Ask for a human decision when the decision is yours.
+13. Leave a durable record when the work matters.
 
-Ask at any point: What are we doing? Why? What is known versus assumed? What can you access? What will change? Can it be undone? How will success be verified? What remains uncertain? Where is it stored? Is it public or private?
+Ask at any point: What are we doing? Why? What is known versus assumed? What can you access? What will change? Can it be undone? How will success be verified? Where is this stored? Is it public or private?
 
 ## Privacy first
 This repository is public. Never copy private conversations, credentials, personal identifiers, private repository contents, customer data, hidden context, or internal implementation evidence into it.
