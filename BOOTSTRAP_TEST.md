@@ -23,7 +23,7 @@ They should be able to:
 9. produce a usable handoff;
 10. preserve a lesson without exposing private information;
 11. identify when a request is outside scope;
-12. avoid adding rAIda, FederAItion, UnAiversed, or a watchdog without a demonstrated need.
+12. avoid adding rAIda, an integration layer, UnAiversed, or a watchdog without a demonstrated need.
 
 ## Acceptance criteria
 
