@@ -16,9 +16,10 @@ If you are new:
 6. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
 7. Use [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — record what was actually checked.
 8. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
-9. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
-10. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
-11. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
+9. Use [WORKSPACE_TEMPLATE/DECISIONS.md](WORKSPACE_TEMPLATE/DECISIONS.md) — make material project rules explicit instead of silently inferring them.
+10. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
+11. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
+12. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
 
 ## The core idea
 
@@ -82,6 +83,6 @@ Ask:
 
 For the operational record and outcomes, use [REALITY_CHECK.md](REALITY_CHECK.md).
 
-The first blind bootstrap RC is recorded in [BLIND_BOOTSTRAP_RC.md](BLIND_BOOTSTRAP_RC.md). Its result is **PASS-WITH-UNCERTAINTY** because the documentation gaps were addressed, but a second independent blind bootstrap has not yet been run.
+The blind bootstrap convergence RC is recorded in [BLIND_BOOTSTRAP_CONVERGENCE_RC.md](BLIND_BOOTSTRAP_CONVERGENCE_RC.md). Its result is **PASS-WITH-UNCERTAINTY**: two independent fresh-start exercises converged on the same boundary, while the evidence does not justify adding a universal approval system or new architecture layer.
 
 **Reality outranks the document.**
