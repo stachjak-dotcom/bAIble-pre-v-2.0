@@ -6,7 +6,7 @@ Two independent fresh-start exercises provide repeated evidence that bAIble pre-
 
 ## Scope
 
-Public repository stachjak-dotcom/bAIble-pre-v-2.0 as inspected by fresh-start agents. No private project context is treated as evidence.
+The public bAIble repository as inspected by fresh-start agents. No private project context is treated as evidence.
 
 ## Evidence
 
