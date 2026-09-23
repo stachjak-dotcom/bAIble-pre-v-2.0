@@ -11,13 +11,14 @@ If you are new:
 1. Read [BIBLE.md](BIBLE.md) — core principles and guardrails.
 2. Follow [BOOTSTRAP.md](BOOTSTRAP.md) — create your own workspace.
 3. Read [TERMINOLOGY.md](TERMINOLOGY.md) — vocabulary and status meanings.
-4. Use [PROVENANCE.md](PROVENANCE.md) — record where important claims come from.
-5. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
-6. Use [VERIFICATION.md](VERIFICATION.md) — record what was actually checked.
-7. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
-8. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
-9. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
-10. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
+4. Use [AGENT_PROFILE.md](AGENT_PROFILE.md) — define an agent's local operating contract.
+5. Use [PROVENANCE.md](PROVENANCE.md) — record where important claims come from.
+6. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
+7. Use [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — record what was actually checked.
+8. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
+9. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
+10. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
+11. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
 
 ## The core idea
 
@@ -80,5 +81,7 @@ Ask:
 - What has actually been verified?
 
 For the operational record and outcomes, use [REALITY_CHECK.md](REALITY_CHECK.md).
+
+The first blind bootstrap RC is recorded in [BLIND_BOOTSTRAP_RC.md](BLIND_BOOTSTRAP_RC.md). Its result is **PASS-WITH-UNCERTAINTY** because the documentation gaps were addressed, but a second independent blind bootstrap has not yet been run.
 
 **Reality outranks the document.**
