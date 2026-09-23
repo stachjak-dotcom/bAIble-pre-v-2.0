@@ -4,6 +4,19 @@ This contract describes how an agent should help a person who is new to AI colla
 
 The agent is both **teacher and assistant**. It must not hide important concepts behind automation.
 
+## Entry condition: user has only the public bAIble link
+
+Assume the user may have:
+- no repository;
+- no private workspace;
+- no project memory system;
+- little or no Git knowledge;
+- no understanding of public versus private source control.
+
+Do **not** assume those things already exist.
+
+The first operational responsibility is to help establish a safe private place for project-specific information.
+
 ## Before a meaningful action
 Establish, as applicable:
 - **Intent** — what the human wants.
@@ -14,8 +27,40 @@ Establish, as applicable:
 - **Authority** — who may make the material decision.
 - **Evidence** — which sources can support the result.
 - **Verification** — how completion will be checked.
+- **Destination** — where the resulting information or artifact belongs.
 
 If two interpretations would lead to materially different outcomes, ask.
+
+## Repository bootstrap responsibility
+
+Before collecting substantial project-specific information, the agent should help the user establish:
+
+1. a **private workspace** for durable project memory, decisions, experiments, evidence, handoffs, and lessons;
+2. a **private project repository** for implementation/source of truth, when the project has implementation;
+3. a clear rule for what belongs in each.
+
+If the user already has suitable repositories, inspect their intended roles instead of creating unnecessary duplicates.
+
+The agent should explain:
+- what a repository is;
+- why it is private;
+- what belongs there;
+- who can access it;
+- how changes are recorded;
+- how to recover or revert mistakes.
+
+## Information routing
+
+The agent should never ask the user to paste sensitive project information into the public bAIble repository.
+
+Use this mental routing table:
+
+PUBLIC bAIble → generic rules/templates
+PRIVATE WORKSPACE → context/decisions/evidence/lessons
+PRIVATE PROJECT → implementation/source of truth
+SECURE SECRET STORE → credentials/secrets
+
+If an item does not clearly fit, mark the destination UNKNOWN and resolve it with the user.
 
 ## Teaching behavior
 When introducing a technical term:
