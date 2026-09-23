@@ -1,78 +1,58 @@
-# bAIble pre-v2
+# bAIble v2
 
-**A portable governance and learning framework for AI collaboration.**
+**A public, portable governance and learning framework for AI collaboration.**
 
 bAIble helps a human and one or more AI agents work together without treating fluent output as proof. It defines how to understand a task, classify uncertainty, act within scope, verify results, preserve project memory, and learn from failures.
 
 ## Start here
 
-If you are new:
+New to this? Start with [START_HERE.md](START_HERE.md), then [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md).
 
-1. Read [BIBLE.md](BIBLE.md) — core principles and guardrails.
-2. Follow [BOOTSTRAP.md](BOOTSTRAP.md) — create your own workspace.
-3. Read [TERMINOLOGY.md](TERMINOLOGY.md) — vocabulary and status meanings.
-4. Use [AGENT_PROFILE.md](AGENT_PROFILE.md) — define an agent's local operating contract.
-5. Use [PROVENANCE.md](PROVENANCE.md) — record where important claims come from.
-6. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
-7. Use [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — record what was actually checked.
-8. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
-9. Use [WORKSPACE_TEMPLATE/DECISIONS.md](WORKSPACE_TEMPLATE/DECISIONS.md) — make material project rules explicit instead of silently inferring them.
-10. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
-11. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
-12. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
+Core references:
+- [BIBLE.md](BIBLE.md) — principles and guardrails.
+- [BOOTSTRAP.md](BOOTSTRAP.md) — create a workspace.
+- [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — beginner-agent contract.
+- [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — publication boundary.
+- [REALITY_CHECK.md](REALITY_CHECK.md) — evidence checkpoint.
+- [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — verification record.
+- [HANDOFF.md](HANDOFF.md) — transfer work safely.
+- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — reusable project records.
 
-## The core idea
+## Core cycle
+UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST
 
-The framework follows:
+A result is not complete merely because it looks convincing. Evidence, scope, verification, and uncertainty remain visible.
 
-`UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST`
+## Optional layers
+- **bAIble** — governance, evidence, verification, learning.
+- **rAIda** — orchestration and coordination.
+- **UnAiversed** — relational context.
+- **Integration layer** — project-specific execution/integration infrastructure.
+- **Watchdog** — monitoring/detection.
+- **Reality Check** — cross-cutting verification.
 
-A result is not considered complete merely because it looks convincing. Evidence, scope, verification, and uncertainty must remain visible.
+These are portable concepts, not mandatory packages. Start with Human → Agent → bAIble → Project and add layers only when a demonstrated problem requires them.
 
-## The layers
-
-- **bAIble** — governance, rules, guardrails, evidence, verification, and learning.
-- **rAIda** — orchestration and coordination between agents, tools, and tasks.
-- **FederAItion** — an execution/integration environment connecting repositories, tools, CI, and workflows.
-- **UnAiversed** — a contextual and relational knowledge space.
-- **Reality Check** — a cross-cutting mechanism for testing conclusions against evidence, assumptions, alternatives, and verification.
-
-These are portable concepts, not mandatory software packages. A minimal installation can be only this bAIble plus one agent and one project.
+See [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md) for the public construction contract. The repository deliberately does **not** contain a private runtime implementation.
 
 ## Public by design
+This repository is public and must remain usable without private conversation history or access to another person's projects.
 
-This repository is intentionally public. It must remain usable without private conversation history or access to someone else's projects.
+Do not publish credentials, personal identifiers, private conversations, private repository contents, confidential/customer data, hidden context, internal access paths, private run evidence, or claims that depend on inaccessible sources.
 
-Do **not** publish:
-
-- credentials, tokens, keys, cookies, or access paths
-- personal or confidential information
-- private conversation exports
-- private repository contents
-- proprietary/customer data
-- hidden context
-- claims that depend on inaccessible sources
-
-A lesson generalized from private work may be included only when the private source is not exposed and the lesson is clearly identified as generalized.
+See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 
 ## Status vocabulary
-
-Important statements should distinguish their status:
-
 - **VERIFIED** — directly supported by accessible evidence.
-- **ESTABLISHED** — repeatedly documented or observed, but not necessarily independently verified in the current task.
+- **ESTABLISHED** — repeatedly documented or observed with relevant limitations.
 - **EXPERIMENTAL** — currently being tested.
-- **PROPOSED** — a design idea awaiting validation.
+- **PROPOSED** — design idea awaiting validation.
 - **PRIVATE** — intentionally excluded from this public repository.
 
-See [STATUS_TRANSITIONS.md](STATUS_TRANSITIONS.md) for promotion and regression rules.
+See [STATUS_TRANSITIONS.md](STATUS_TRANSITIONS.md).
 
 ## Reality Check
-
-When evidence is incomplete, do not manufacture continuity or certainty.
-
 Ask:
-
 - What do we know?
 - What is the source?
 - What are we inferring?
@@ -80,9 +60,5 @@ Ask:
 - What alternative explanation matters?
 - What would falsify the conclusion?
 - What has actually been verified?
-
-For the operational record and outcomes, use [REALITY_CHECK.md](REALITY_CHECK.md).
-
-The blind bootstrap convergence RC is recorded in [BLIND_BOOTSTRAP_CONVERGENCE_RC.md](BLIND_BOOTSTRAP_CONVERGENCE_RC.md). Its result is **PASS-WITH-UNCERTAINTY**: two independent fresh-start exercises converged on the same boundary, while the evidence does not justify adding a universal approval system or new architecture layer.
 
 **Reality outranks the document.**
