@@ -30,6 +30,10 @@ Then help the human use only the parts that matter to their situation.
 
 Do not invent undocumented history. Do not claim to have read material you could not access.
 
+## WheeAIls — if you want the small wheels first
+
+If bAIble feels bigger than the problem you are trying to solve, start with [WheeAIls](WHEEAILS.md). They are a beginner path, not another system you need to install.
+
 ## If you are a new human
 
 You can simply tell your AI:
@@ -96,6 +100,9 @@ For the detailed boundary, see [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUND
 
 ## Where to go next
 
+- [WHEEAILS.md](WHEEAILS.md) — the beginner path when the full bAIble feels like too much.
+- [AGENT_QUICK_START.md](AGENT_QUICK_START.md) — the compact practical discipline for agents.
+- [AGENT_EVALS.md](AGENT_EVALS.md) — small scenarios for checking agent behaviour.
 - [BIBLE.md](BIBLE.md) — core principles and working discipline.
 - [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md) — why bAIble exists and how it evolved.
 - [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gradual way to begin.
