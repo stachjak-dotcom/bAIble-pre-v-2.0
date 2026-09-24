@@ -4,7 +4,7 @@ This is a migration audit, not a replacement for the foundation.
 
 ## Result
 
-The current v2 now contains the major public concepts from v0.1:
+The current v2 contains the major public concepts from v0.1:
 
 | v0.1 concept | v2 location | Status |
 |---|---|---|
@@ -28,7 +28,7 @@ The current v2 now contains the major public concepts from v0.1:
 | Approval gates | BIBLE.md / SECURITY.md | preserved |
 | Decision records | WORKSPACE_TEMPLATE/DECISIONS.md | preserved |
 | Versioning / learning from mistakes | ORIGIN_AND_PURPOSE.md / FOUNDATION_V0_1.md | preserved |
-| Original identity / voice | SONG_TWO.md / START_HERE.md | partially restored; historical source audit still needed |
+| Original identity / voice | SONG_TWO.md / START_HERE.md | partially restored; historical source checked below |
 
 ## Important findings
 
@@ -58,13 +58,18 @@ This is an evolution, not something that should be falsely presented as part of 
 
 ### 6. rAIda, UnAiversed and Watchdog are v2 extensions
 
-These are not required to understand the v0.1 foundation. They should remain optional layers.
+These are not required to understand the v0.1 foundation. They remain optional layers.
 
-### 7. Historical voice is not yet fully audited
+### 7. Historical voice has now been checked
 
-The current v2 has restored the two-song framing and a Wolf/paw reference, but exact historical Wolf/Wolfe material and other distinctive language have not yet been fully mapped against the original repository.
+The two quotations used in SONG_TWO.md were checked against the original v0.1 README.md and BIBLE.md:
 
-Do not invent missing history. The next historical pass should retrieve the exact original text before claiming that a particular phrase or character was part of v0.1.
+- “bAIble is not a manual for making AI obey. It is a framework for working well with AI.”
+- “The goal is not perfect instructions. The goal is a system that becomes more reliable through use.”
+
+Both are supported by the original v0.1 repository.
+
+The **Wolf/paw reference is not being presented as v0.1 history**. It belongs to the later identity/context of the project and is intentionally kept as a subtle Easter egg rather than explained as part of the original foundation.
 
 ## Migration rule
 
