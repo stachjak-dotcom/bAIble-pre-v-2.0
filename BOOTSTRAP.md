@@ -11,7 +11,7 @@ A new user should be able to start without hidden context.
 7. Run a first Reality Check: what can the agent access, what can it not access, which source is authoritative, what is assumed, and what needs verification?
 8. Record material project rules explicitly using [WORKSPACE_TEMPLATE/DECISIONS.md](WORKSPACE_TEMPLATE/DECISIONS.md).
 9. Run one small, reversible experiment using [EXPERIMENTS.md](EXPERIMENTS.md).
-10. Record verification separately using [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md).
+10. Record verification separately using [VERIFICATION.md](VERIFICATION.md).
 11. Transfer work using [HANDOFF.md](HANDOFF.md) when another human, agent, tool, or session takes over.
 12. Add rAIda only when coordination becomes useful.
 13. Add UnAiversed only when relational context solves a real problem.
