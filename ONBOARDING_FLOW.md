@@ -37,7 +37,8 @@ Explain only what the current work needs:
 - evidence and verification;
 - Reality Check;
 - durable memory;
-- public/private separation.
+- public/private separation;
+- Basecamp when the project needs a richer way to preserve relationships, history, and learning.
 
 Do not introduce the entire architecture at once.
 
@@ -65,15 +66,17 @@ Move important decisions, evidence, lessons, and handoffs out of temporary conve
 
 Keep implementation details in the project's source of truth.
 
-## Phase 7 — Add more structure only when needed
+When the project's history and relationships become important enough that flat records are no longer enough, Basecamp can become the contextual workspace around those records.
 
-If relationships between important context become difficult to preserve, introduce **UnAiversed** concepts.
+## Phase 7 — Add more structure only when needed
 
 If several agents or tools need coordination, introduce **rAIda**.
 
-If multiple execution environments need to work together, introduce an integration layer.
+If multiple execution environments need to work together, introduce an **integration layer**.
 
 If an observable workflow needs monitoring, introduce a **Watchdog**.
+
+Use **Reality Check** across the work whenever verification matters.
 
 Build the smallest real version first. Keep implementation-specific details in the private project environment.
 

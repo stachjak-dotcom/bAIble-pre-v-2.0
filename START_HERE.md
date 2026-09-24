@@ -57,6 +57,18 @@ A simple separation is:
 
 If you already have suitable private places, keep using them. The point is clarity, not creating more infrastructure.
 
+## The ideas you may meet later
+
+You do not need these on day one. They exist because different problems need different kinds of help.
+
+- **rAIda** — coordinates several agents, tools, tasks, or handoffs when manual coordination becomes the problem. [Read the construction guide →](RUNTIME_AND_WATCHDOG.md)
+- **Basecamp** — preserves the relationships, history, decisions, experiments, evidence, and lessons that help a project grow without losing where things came from. [Read the guide →](UNAIVERSED_GUIDE.md)
+- **Integration layer** — connects separate execution environments such as repositories, tools, CI, or applications. [Read the architecture →](ARCHITECTURE.md)
+- **Watchdog** — watches an observable workflow for stuck work, invalid states, missing evidence, or unexpected failures. [Read the watchdog guide →](RUNTIME_AND_WATCHDOG.md)
+- **Reality Check** — checks conclusions and apparent success against evidence, assumptions, alternatives, and verification. [Read the guide →](REALITY_CHECK.md)
+
+Start with the smallest thing that helps. You can add the rest later.
+
 ## What good collaboration looks like
 
 Ask:
@@ -73,18 +85,6 @@ Ask:
 - What decision belongs to the human?
 
 The AI should be willing to say **“I don't know”**, challenge an assumption when evidence warrants it, and make uncertainty visible.
-
-## The rest can come later
-
-You may encounter:
-
-- **rAIda** — coordination when several agents or tools need to work together;
-- **UnAiversed** — relational context when ordinary records stop being enough;
-- **Integration layer** — coordination between separate systems or execution environments;
-- **Watchdog** — monitoring for an observable workflow;
-- **Reality Check** — verification used wherever it matters.
-
-They are optional. Start with the smallest thing that helps.
 
 ## A note about the public repository
 
