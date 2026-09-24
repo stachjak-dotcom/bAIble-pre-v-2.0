@@ -7,7 +7,7 @@
 
 bAIble is not here to make AI obey. It is here to help humans and AI learn how to work well together.
 
-bAIble began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown into a broader, portable guide for building a good working relationship with AI without confusing fluent output with truth.
+It began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown into a broader, portable guide for working with AI without confusing fluent output with truth.
 
 You do not need to understand the whole system before using it.
 
@@ -15,20 +15,19 @@ You do not need to understand the whole system before using it.
 
 New here? Read [START_HERE.md](START_HERE.md).
 
-Then use the parts that are useful for your situation:
+Then use only the parts that are useful to you:
 
-- [BIBLE.md](BIBLE.md) — the core principles.
-- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gentle path for starting with bAIble.
+- [BIBLE.md](BIBLE.md) — the core principles and working discipline.
+- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gradual path for getting started.
 - [BOOTSTRAP.md](BOOTSTRAP.md) — practical workspace setup.
 - [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — guidance for an AI helping a new user.
-- [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — keeping private work private.
-- [REALITY_CHECK.md](REALITY_CHECK.md) — checking whether something is actually supported.
+- [REALITY_CHECK.md](REALITY_CHECK.md) — a way to test whether something is actually supported.
 - [VERIFICATION.md](VERIFICATION.md) — verification practice.
-- [AGENT_ROLES.md](AGENT_ROLES.md) — what the core roles mean and why they matter.
+- [AGENT_ROLES.md](AGENT_ROLES.md) — the core collaboration roles.
 - [HANDOFF.md](HANDOFF.md) — preserving work when it moves between people or agents.
-- [FOUNDATION_V0_1.md](FOUNDATION_V0_1.md) — the first bAIble foundation that v2 grows from.
+- [FOUNDATION_V0_1.md](FOUNDATION_V0_1.md) — the foundation v2 grows from.
 - [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — reusable lessons.
-- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional starting templates for a private workspace.
+- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional templates for a private workspace.
 
 ## The basic idea
 
@@ -48,7 +47,7 @@ Ask:
 - What is the AI allowed to do?
 - What evidence do we have?
 - How will we know the result is real?
-- Where should the important information be kept?
+- Where should the important information live?
 
 ## Start small
 
@@ -56,35 +55,33 @@ The smallest useful setup is simply:
 
 **HUMAN → AI → bAIble → YOUR PROJECT**
 
-If your project needs more structure later, bAIble can introduce it.
+If the project later needs more structure, add it because there is a real problem to solve.
 
 - **rAIda** can help when several agents, tools, or tasks genuinely need coordination.
 - **UnAiversed** can help when relationships between context, decisions, observations, experiments, and lessons become difficult to preserve.
-- An **integration layer** can connect multiple execution environments.
-- A **Watchdog** can help monitor an observable workflow.
-- **Reality Check** can be used across all of these when verification matters.
+- An **integration layer** can connect separate execution environments.
+- A **Watchdog** can monitor an observable workflow.
+- **Reality Check** can be used across all of them when verification matters.
 
-These are optional ideas, not a checklist and not mandatory software packages.
+None of these is a requirement for using bAIble.
 
 ## Your private work
 
 The public bAIble is the guide. It is not your private project memory.
 
-If you are starting a real project, your AI should help you establish an appropriate private place for:
+For a real project, keep project-specific information in an appropriate private place:
 
-- project context;
-- decisions;
-- experiments;
-- evidence;
+- project context and decisions;
+- experiments and evidence;
 - lessons and handoffs;
 - implementation/source of truth;
 - secrets in appropriate secure storage.
 
-Use the public repository only for material that is safe and useful to generalize.
+If you already have suitable places, use them. Do not build a complicated system just because bAIble mentions one.
 
 See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 
-## A central rule
+## A central idea
 
 **AI can help you act, but fluent output is not proof.**
 
