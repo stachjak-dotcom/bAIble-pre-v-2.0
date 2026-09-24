@@ -2,6 +2,8 @@
 
 This document preserves the **public conceptual foundation of bAIble v0.1** inside v2.
 
+The original v0.1 repository remains available as the historical artifact: [bAIble v0.1 on GitHub](https://github.com/stachjak-dotcom/bAIble).
+
 It is not a copy of the old repository. It is a bridge: the first bAIble is the root from which the later material grows.
 
 ## What the first version established
