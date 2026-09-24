@@ -1,68 +1,98 @@
 # Beginner Onboarding Flow
 
-## Phase 1 — Meet the user
-Ask what the user wants to accomplish, what would count as a useful first result, what is already known, what must remain private, and what tools/repositories already exist.
+This is a path, not a ceremony. Use only as much of it as the project needs.
 
-Do not ask the user to dump project information into the public bAIble repository.
+## Phase 1 — Meet the user
+
+Start with the user's goal and the first useful result.
+
+Find out, as needed:
+
+- what they want to accomplish;
+- what is already known;
+- what must remain private;
+- what tools or repositories already exist.
+
+Do not ask the user to put project-specific information into the public bAIble repository.
 
 ## Phase 2 — Establish the private foundation
-Before substantial project work:
 
-1. explain public versus private;
-2. check whether a private workspace exists;
-3. check whether a private project repository exists or is needed;
-4. help create them when necessary;
-5. explain what each repository is for;
-6. confirm visibility and access;
-7. identify the project's implementation source of truth;
-8. create the initial private records.
+Before substantial project work, make sure there is an appropriate private place for project-specific information.
 
-The user should know **where their information will live before they start giving the agent that information**.
+As needed:
 
-## Phase 3 — Explain bAIble
-Explain governance, scope, evidence, verification, Reality Check, durable memory, and public/private separation. Do not introduce the entire architecture at once.
+1. explain the public/private boundary;
+2. check whether a suitable private workspace exists;
+3. check where the project's implementation/source of truth lives;
+4. help create or organize these places when necessary;
+5. confirm visibility and access.
+
+The user should understand where their information will live before they start giving the agent substantial project context.
+
+## Phase 3 — Introduce the useful parts of bAIble
+
+Explain only what the current work needs:
+
+- scope and authority;
+- evidence and verification;
+- Reality Check;
+- durable memory;
+- public/private separation.
+
+Do not introduce the entire architecture at once.
 
 ## Phase 4 — Define the agent contract
-Create an agent profile covering role, purpose, tools, systems/repositories, scope, authority, approval, authoritative sources, verification, handoff, and out-of-scope work.
+
+When an agent will perform meaningful work, define its role, purpose, tools, systems/repositories, scope, authority, approval level, authoritative sources, verification responsibility, and handoff format.
 
 ## Phase 5 — First bounded task
-Choose a small reversible task. Define expected result, evidence, scope, approval requirements, and destination for the resulting records.
 
-After execution, inspect the actual result, record verification, run Reality Check, and record a lesson if useful.
+Choose a small, reversible task.
 
-## Phase 6 — Durable memory
-Move important decisions, evidence, and lessons out of temporary conversation context into the appropriate private project records.
+Define:
 
-Use the private workspace for coordination and durable project memory. Use the private project repository for implementation/source of truth.
+- the expected result;
+- the scope;
+- the evidence needed;
+- approval requirements;
+- where the resulting information belongs.
 
-## Phase 7 — Add relational context if needed
-If relationships between important context cannot be reliably preserved in ordinary records, introduce UnAiversed concepts. Start with structured records before sophisticated visualization.
+After execution, inspect the actual result, record verification, and run a Reality Check when useful.
 
-## Phase 8 — Add orchestration if needed
-If several agents/tools must coordinate, introduce the rAIda role and lifecycle from [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md). Build the smallest real workflow first.
+## Phase 6 — Preserve what matters
 
-## Phase 9 — Add integration infrastructure if needed
-When multiple repositories, tools, CI systems, or execution environments need coordinated work, introduce the project's own integration layer. Keep implementation-specific details private.
+Move important decisions, evidence, lessons, and handoffs out of temporary conversation context into the appropriate private records.
 
-## Phase 10 — Add monitoring
-Only after the workflow is observable should a watchdog be added. Begin with detection and reporting. Automated remediation requires explicit authority and adequate evidence.
+Keep implementation details in the project's source of truth.
 
-## Phase 11 — Graduation test
-The user should be able to:
-- identify the public bAIble repository;
-- identify their private workspace;
-- identify their private project source of truth;
-- explain what belongs in each;
-- distinguish facts/interpretations/hypotheses/decisions;
-- define agent scope and authority;
+## Phase 7 — Add more structure only when needed
+
+If relationships between important context become difficult to preserve, introduce **UnAiversed** concepts.
+
+If several agents or tools need coordination, introduce **rAIda**.
+
+If multiple execution environments need to work together, introduce an integration layer.
+
+If an observable workflow needs monitoring, introduce a **Watchdog**.
+
+Build the smallest real version first. Keep implementation-specific details in the private project environment.
+
+## Graduation
+
+A user is ready to work independently when they can:
+
+- identify what is public and what is private;
+- identify the project's source of truth;
+- give an agent a bounded task;
+- understand the agent's authority;
+- distinguish facts, interpretations, hypotheses, and decisions;
 - identify evidence;
-- perform Reality Check;
-- verify independently of self-report;
-- preserve a handoff;
-- keep private information out of public artifacts;
-- explain why each added architectural layer exists.
+- perform a useful Reality Check;
+- verify a result independently of self-report;
+- preserve important knowledge for the next person or agent.
 
 ## Final principle
+
 The goal is not to build the largest AI system.
 
 **Build the smallest system that remains understandable, verifiable, maintainable, and under human control.**
