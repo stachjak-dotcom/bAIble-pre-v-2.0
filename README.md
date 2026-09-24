@@ -49,21 +49,57 @@ Ask:
 - How will we know the result is real?
 - Where should the important information live?
 
+## The layers
+
+These names describe **different jobs**, not a stack you are expected to install.
+
+### [rAIda](RUNTIME_AND_WATCHDOG.md) — coordination
+
+rAIda is the coordination layer. It becomes useful when several agents, tools, tasks, or handoffs need to work together without a human manually relaying every step.
+
+It helps answer: **What is happening, who is doing it, what state is it in, and what happens next?**
+
+### [Basecamp](UNAIVERSED_GUIDE.md) — context and growth
+
+Basecamp is the project's contextual workspace: a place to preserve relationships between observations, ideas, decisions, experiments, evidence, lessons, and the history of how the project grew.
+
+It helps answer: **Why are we here, how did we get here, what connects these things, and what have we learned along the way?**
+
+Basecamp is not the source of truth by itself. It is the context around the work.
+
+This layer is important because a project does not only accumulate files. It accumulates **relationships, decisions, discoveries, and learning**. Basecamp gives those relationships somewhere to live.
+
+### Integration layer — execution
+
+An integration layer connects separate execution environments: repositories, tools, CI systems, applications, or other services.
+
+It helps answer: **How do the actual systems exchange work and evidence?**
+
+The concrete implementation is project-specific and should remain private when appropriate.
+
+### Watchdog — monitoring
+
+A Watchdog observes an existing workflow and detects or reports anomalies such as stuck work, invalid state transitions, missing evidence, or unexpected failures.
+
+It helps answer: **Is the workflow behaving as expected?**
+
+It is not a second unexplained orchestrator.
+
+### [Reality Check](REALITY_CHECK.md) — verification across the layers
+
+Reality Check is not another infrastructure layer. It is a verification mechanism that can be used anywhere.
+
+It asks: **Do the conclusion, assumption, or apparent success actually hold up against the evidence?**
+
 ## Start small
 
 The smallest useful setup is simply:
 
 **HUMAN → AI → bAIble → YOUR PROJECT**
 
-If the project later needs more structure, add it because there is a real problem to solve.
+Add another layer only when a real problem calls for it.
 
-- **rAIda** can help when several agents, tools, or tasks genuinely need coordination.
-- **UnAiversed** can help when relationships between context, decisions, observations, experiments, and lessons become difficult to preserve.
-- An **integration layer** can connect separate execution environments.
-- A **Watchdog** can monitor an observable workflow.
-- **Reality Check** can be used across all of them when verification matters.
-
-None of these is a requirement for using bAIble.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the relationships between these concepts.
 
 ## Your private work
 
