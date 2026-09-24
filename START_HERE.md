@@ -1,8 +1,12 @@
-# Start Here
+# 🐺 Start Here
+
+> **Píseň druhá — L(A)Iving together**
+>
+> Pokud je bAIble nový, klidně začni tady. Nemusíš znát všechny jeho písně ani všechny jeho zkratky.
 
 ## Welcome
 
-bAIble is a living, public guide for humans and AI working together deliberately.
+bAIble is a living, public guide for humans and AI working together deliberately. It grew from the first song — **Vznik jAIzyka** — into the second: **L(A)Iving together**.
 
 It began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown as those lessons became broader and more reusable.
 
