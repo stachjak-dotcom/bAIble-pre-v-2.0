@@ -4,8 +4,8 @@
 |---|---|---|
 | bAIble | Governance, rules, guardrails, evidence, verification, learning | Established framework |
 | rAIda | Orchestration/coordination layer | Concept; implementation-dependent |
+| Basecamp | Contextual/relational workspace for project history, relationships, decisions, experiments, evidence, and lessons | Concept; implementation-dependent |
 | Integration layer | Project-specific execution/integration layer | Concept; implementation-dependent |
-| UnAiversed | Contextual/relational knowledge space | Concept; implementation-dependent |
 | Reality Check | Verification mechanism for evidence, assumptions, alternatives and uncertainty | Evolving mechanism |
 | Gray data | Unresolved input that is not automatically treated as fact, requirement, or conclusion | Evolving concept |
 | Watchdog | Monitoring/detection layer | Proposed |
@@ -16,3 +16,7 @@
 | White-couch failure | Attractive coherent interpretation built on missing evidence | Generalized lesson |
 
 Names are not dependencies. Implementations may use different names.
+
+## Naming note
+
+Basecamp is the practical/public name of the contextual layer. Earlier design material used the name **UnAiversed** for the same conceptual area. The name can evolve without changing the underlying purpose.
