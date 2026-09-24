@@ -75,7 +75,7 @@ Use Reality Check wherever verification matters.
 - UI visibility is not authorization.
 - A public framework is not a private runtime.
 
-See [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md) and [UNAIVERSED_GUIDE.md](UNAIVERSED_GUIDE.md).
+See [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md) and [BASECAMP_GUIDE.md](BASECAMP_GUIDE.md).
 
 ## Learning loop
 
