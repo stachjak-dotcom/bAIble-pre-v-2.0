@@ -1,6 +1,11 @@
-# bAIble v2
+# 📖 bAIble v2
 
 **A living guide for humans and AI working together deliberately.**
+
+> *Píseň první — Vznik jAIzyka.*  
+> *Píseň druhá — L(A)Iving together.*
+
+bAIble is not here to make AI obey. It is here to help humans and AI learn how to work well together.
 
 bAIble began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown into a broader, portable guide for building a good working relationship with AI without confusing fluent output with truth.
 
