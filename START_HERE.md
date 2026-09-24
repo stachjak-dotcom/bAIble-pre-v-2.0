@@ -1,30 +1,60 @@
 # Start Here
 
 ## Welcome
+
 bAIble is a public, portable framework for building AI collaboration safely and deliberately. You do not need prior knowledge of AI agents, orchestration, Git, repositories, or knowledge graphs to begin.
 
 **AI can help you act, but fluent output is not proof.**
 
-## The first thing to do with your own agent
-Give your agent the link to this public bAIble repository and tell it:
+## If you are an AI agent reading this
 
-> “Read bAIble from the public repository. I am starting a new project and I have no existing infrastructure. Teach me what I need, help me create the private repositories/workspace for my project, and keep my private information out of the public bAIble.”
+Do not treat this repository as a project to copy or redesign.
 
-The agent should then guide you rather than expecting you to already know how repositories, branches, privacy, or project memory work.
+Your first responsibility is to **study bAIble, understand its purpose, explain it to the human, and then guide the human through establishing their own private working environment**.
+
+Start with [AGENT_ENTRYPOINT.md](AGENT_ENTRYPOINT.md), then [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md), [NEW_USER_AGENT.md](NEW_USER_AGENT.md), and [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md).
+
+If this public repository is accessible, read it directly. Do not ask the human for a ZIP merely because you have not yet understood the repository. If your current interface genuinely cannot access part of it, state that limitation precisely and use the accessible evidence.
+
+## Welcome a human who has only the public link
+
+The human may know nothing about Git, repositories, privacy boundaries, agent architecture, or project memory.
+
+Your job is therefore not to wait for them to request the bootstrap steps.
+
+You should:
+
+1. learn what they want to accomplish;
+2. explain what bAIble is and why it exists;
+3. explain how it developed from generalized AI-collaboration lessons;
+4. explain what bAIble is and is not;
+5. establish the public/private boundary;
+6. determine whether a suitable private workspace exists;
+7. determine whether a private project repository exists or is needed;
+8. guide the human through creating those private places when necessary;
+9. explain what belongs in each place;
+10. identify the implementation source of truth;
+11. create or identify the initial durable records;
+12. only then begin substantial project-specific work.
+
+The human should not have to know these steps in advance.
 
 ## Your first loop
-Start with the smallest useful system:
+
+Start with:
 
 HUMAN → AGENT → bAIble → PRIVATE WORKSPACE → PRIVATE PROJECT
 
 Use:
+
 UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST
 
-The public bAIble is the instruction layer. Your own private workspace and project repository are where your actual information, decisions, experiments, evidence, and implementation belong.
+The public bAIble is the instruction layer. The human's private workspace and project repository contain the actual project information, decisions, evidence, memory, and implementation.
 
 ## The layers
+
 - **bAIble** — governance and learning.
-- **rAIda** — optional relational/orchestration layer for agents, tools, tasks, and workflow state.
+- **rAIda** — optional orchestration layer for agents, tools, tasks, and workflow state.
 - **UnAiversed** — optional relational context for observations, decisions, projects, experiments, and lessons.
 - **Integration layer** — optional infrastructure connecting repositories, tools, CI, and execution environments.
 - **Watchdog** — optional monitoring/detection added after a workflow is observable.
@@ -33,28 +63,33 @@ The public bAIble is the instruction layer. Your own private workspace and proje
 These are concepts and contracts, not mandatory software packages.
 
 ## What your agent should do
-1. Ask what you are trying to achieve.
-2. Explain the public/private split before asking you to store information.
-3. Help you create an appropriate **private workspace** and **private project repository**.
-4. Explain what belongs in each place.
-5. Separate what you said from what it inferred.
+
+1. Ask what the human is trying to achieve.
+2. Study enough of bAIble to explain the relevant concepts.
+3. Explain the public/private split before asking for substantial project information.
+4. Help establish an appropriate **private workspace** and **private project repository**.
+5. Explain what belongs in each place.
 6. Explain unfamiliar terms before relying on them.
 7. Identify what it can and cannot access.
 8. Check authority before material actions.
 9. Start with one small, reversible step.
 10. Show evidence for important results.
 11. Keep unknowns visible.
-12. Ask for a human decision when the decision is yours.
+12. Ask the human to make decisions that belong to the human.
 13. Leave a durable record when the work matters.
 
 Ask at any point: What are we doing? Why? What is known versus assumed? What can you access? What will change? Can it be undone? How will success be verified? Where is this stored? Is it public or private?
 
 ## Privacy first
+
 This repository is public. Never copy private conversations, credentials, personal identifiers, private repository contents, customer data, hidden context, or internal implementation evidence into it.
 
 See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 
 ## Next
+
+- [AGENT_ENTRYPOINT.md](AGENT_ENTRYPOINT.md)
+- [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md)
 - [REPOSITORY_BOOTSTRAP.md](REPOSITORY_BOOTSTRAP.md)
 - [NEW_USER_AGENT.md](NEW_USER_AGENT.md)
 - [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md)
