@@ -62,7 +62,7 @@ If you already have suitable private places, keep using them. The point is clari
 You do not need these on day one. They exist because different problems need different kinds of help.
 
 - **rAIda** — coordinates several agents, tools, tasks, or handoffs when manual coordination becomes the problem. [Read the construction guide →](RUNTIME_AND_WATCHDOG.md)
-- **Basecamp** — preserves the relationships, history, decisions, experiments, evidence, and lessons that help a project grow without losing where things came from. [Read the guide →](UNAIVERSED_GUIDE.md)
+- **Basecamp** — preserves the relationships, history, decisions, experiments, evidence, and lessons that help a project grow without losing where things came from. [Read the guide →](BASECAMP_GUIDE.md)
 - **Integration layer** — connects separate execution environments such as repositories, tools, CI, or applications. [Read the architecture →](ARCHITECTURE.md)
 - **Watchdog** — watches an observable workflow for stuck work, invalid states, missing evidence, or unexpected failures. [Read the watchdog guide →](RUNTIME_AND_WATCHDOG.md)
 - **Reality Check** — checks conclusions and apparent success against evidence, assumptions, alternatives, and verification. [Read the guide →](REALITY_CHECK.md)
