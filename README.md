@@ -24,7 +24,9 @@ Then use the parts that are useful for your situation:
 - [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — keeping private work private.
 - [REALITY_CHECK.md](REALITY_CHECK.md) — checking whether something is actually supported.
 - [VERIFICATION.md](VERIFICATION.md) — verification practice.
+- [AGENT_ROLES.md](AGENT_ROLES.md) — what the core roles mean and why they matter.
 - [HANDOFF.md](HANDOFF.md) — preserving work when it moves between people or agents.
+- [FOUNDATION_V0_1.md](FOUNDATION_V0_1.md) — the first bAIble foundation that v2 grows from.
 - [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — reusable lessons.
 - [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional starting templates for a private workspace.
 

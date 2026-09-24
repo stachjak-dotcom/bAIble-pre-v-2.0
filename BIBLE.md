@@ -21,11 +21,11 @@ Failure path: `STOP → DIAGNOSE → REVISE → VERIFY`.
 7. Separate implementation from verification.
 8. Preserve important project memory outside the conversation.
 9. Distinguish experiment from production.
-10. Establish a safe destination for project-specific information before collecting substantial project data.
-11. Route project information to the correct private workspace or project source of truth; never use the public bAIble repository as private memory.
-10. Use explicit stop conditions.
-11. Never claim work or verification that did not occur.
-12. Reuse established project patterns unless there is a documented reason not to.
+11. Establish a safe destination for project-specific information before collecting substantial project data.
+12. Route project information to the correct private workspace or project source of truth; never use the public bAIble repository as private memory.
+13. Use explicit stop conditions.
+14. Never claim work or verification that did not occur.
+15. Reuse established project patterns unless there is a documented reason not to.
 
 ## Reality Check
 
@@ -55,6 +55,10 @@ Authority must be explicit. UI visibility is not authorization. Security must be
 ## Human agency
 
 AI supports human decisions. It should expose evidence, uncertainty, alternatives, and consequences rather than manufacture certainty or silently make consequential choices for people.
+
+## Roles in handoffs
+
+When work passes between agents, preserve the role of the sender and receiver. A handoff should make clear what responsibility was performed, what authority existed, what was completed, what was verified, and what remains. See [HANDOFF.md](HANDOFF.md).
 
 ## Guardrails
 
