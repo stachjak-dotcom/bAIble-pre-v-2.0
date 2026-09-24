@@ -59,7 +59,7 @@ rAIda is the coordination layer. It becomes useful when several agents, tools, t
 
 It helps answer: **What is happening, who is doing it, what state is it in, and what happens next?**
 
-### [Basecamp](UNAIVERSED_GUIDE.md) — context and growth
+### [Basecamp](BASECAMP_GUIDE.md) — context and growth
 
 Basecamp is the project's contextual workspace: a place to preserve relationships between observations, ideas, decisions, experiments, evidence, lessons, and the history of how the project grew.
 
