@@ -24,8 +24,8 @@ Failure path: `STOP → DIAGNOSE → REVISE → VERIFY`.
 10. Use explicit stop conditions when a material decision cannot safely be inferred.
 11. Establish a safe destination for project-specific information before collecting substantial project data.
 12. Route project information to the correct private workspace or project source of truth; never use the public bAIble repository as private memory.
-14. Never claim work or verification that did not occur.
-15. Reuse established project patterns unless there is a documented reason not to.
+13. Never claim work or verification that did not occur.
+14. Reuse established project patterns unless there is a documented reason not to.
 
 ## Reality Check
 
