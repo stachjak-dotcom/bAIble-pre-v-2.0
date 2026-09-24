@@ -1,64 +1,86 @@
 # bAIble v2
 
-**A public, portable governance and learning framework for AI collaboration.**
+**A living guide for humans and AI working together deliberately.**
 
-bAIble helps a human and one or more AI agents work together without treating fluent output as proof. It defines how to understand a task, classify uncertainty, act within scope, verify results, preserve project memory, and learn from failures.
+bAIble began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown into a broader, portable guide for building a good working relationship with AI without confusing fluent output with truth.
+
+You do not need to understand the whole system before using it.
 
 ## Start here
 
-New to this? Start with [START_HERE.md](START_HERE.md), then [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md).
+New here? Read [START_HERE.md](START_HERE.md).
 
-Core references:
-- [BIBLE.md](BIBLE.md) — principles and guardrails.
-- [BOOTSTRAP.md](BOOTSTRAP.md) — create a workspace.
-- [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — beginner-agent contract.
-- [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — publication boundary.
-- [REALITY_CHECK.md](REALITY_CHECK.md) — evidence checkpoint.
-- [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — verification record.
-- [HANDOFF.md](HANDOFF.md) — transfer work safely.
-- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — reusable project records.
+Then use the parts that are useful for your situation:
 
-## Core cycle
-UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST
+- [BIBLE.md](BIBLE.md) — the core principles.
+- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gentle path for starting with bAIble.
+- [BOOTSTRAP.md](BOOTSTRAP.md) — practical workspace setup.
+- [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — guidance for an AI helping a new user.
+- [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — keeping private work private.
+- [REALITY_CHECK.md](REALITY_CHECK.md) — checking whether something is actually supported.
+- [VERIFICATION.md](VERIFICATION.md) — verification practice.
+- [HANDOFF.md](HANDOFF.md) — preserving work when it moves between people or agents.
+- [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — reusable lessons.
+- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional starting templates for a private workspace.
 
-A result is not complete merely because it looks convincing. Evidence, scope, verification, and uncertainty remain visible.
+## The basic idea
 
-## Optional layers
-- **bAIble** — governance, evidence, verification, learning.
-- **rAIda** — orchestration and coordination.
-- **UnAiversed** — relational context.
-- **Integration layer** — project-specific execution/integration infrastructure.
-- **Watchdog** — monitoring/detection.
-- **Reality Check** — cross-cutting verification.
+Work with AI as a collaboration, not as an oracle.
 
-These are portable concepts, not mandatory packages. Start with Human → Agent → bAIble → Project and add layers only when a demonstrated problem requires them.
+A useful rhythm is:
 
-See [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md) for the public construction contract. The repository deliberately does **not** contain a private runtime implementation.
+**UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST**
 
-## Public by design
-This repository is public and must remain usable without private conversation history or access to another person's projects.
+You do not have to perform every step formally every time. The point is to notice when a step matters.
 
-Do not publish credentials, personal identifiers, private conversations, private repository contents, confidential/customer data, hidden context, internal access paths, private run evidence, or claims that depend on inaccessible sources.
+Ask:
+
+- What are we actually trying to do?
+- What do we know?
+- What are we assuming?
+- What is the AI allowed to do?
+- What evidence do we have?
+- How will we know the result is real?
+- Where should the important information be kept?
+
+## Start small
+
+The smallest useful setup is simply:
+
+**HUMAN → AI → bAIble → YOUR PROJECT**
+
+If your project needs more structure later, bAIble can introduce it.
+
+- **rAIda** can help when several agents, tools, or tasks genuinely need coordination.
+- **UnAiversed** can help when relationships between context, decisions, observations, experiments, and lessons become difficult to preserve.
+- An **integration layer** can connect multiple execution environments.
+- A **Watchdog** can help monitor an observable workflow.
+- **Reality Check** can be used across all of these when verification matters.
+
+These are optional ideas, not a checklist and not mandatory software packages.
+
+## Your private work
+
+The public bAIble is the guide. It is not your private project memory.
+
+If you are starting a real project, your AI should help you establish an appropriate private place for:
+
+- project context;
+- decisions;
+- experiments;
+- evidence;
+- lessons and handoffs;
+- implementation/source of truth;
+- secrets in appropriate secure storage.
+
+Use the public repository only for material that is safe and useful to generalize.
 
 See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 
-## Status vocabulary
-- **VERIFIED** — directly supported by accessible evidence.
-- **ESTABLISHED** — repeatedly documented or observed with relevant limitations.
-- **EXPERIMENTAL** — currently being tested.
-- **PROPOSED** — design idea awaiting validation.
-- **PRIVATE** — intentionally excluded from this public repository.
+## A central rule
 
-See [STATUS_TRANSITIONS.md](STATUS_TRANSITIONS.md).
+**AI can help you act, but fluent output is not proof.**
 
-## Reality Check
-Ask:
-- What do we know?
-- What is the source?
-- What are we inferring?
-- What remains unknown?
-- What alternative explanation matters?
-- What would falsify the conclusion?
-- What has actually been verified?
+Good collaboration keeps uncertainty visible, checks important results, preserves useful knowledge, and leaves decisions that belong to the human with the human.
 
 **Reality outranks the document.**
