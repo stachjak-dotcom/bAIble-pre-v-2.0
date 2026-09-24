@@ -2,101 +2,110 @@
 
 ## Welcome
 
-bAIble is a public, portable framework for building AI collaboration safely and deliberately. You do not need prior knowledge of AI agents, orchestration, Git, repositories, or knowledge graphs to begin.
+bAIble is a living, public guide for humans and AI working together deliberately.
+
+It began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown as those lessons became broader and more reusable.
+
+You do **not** need to understand the whole bAIble before using it.
 
 **AI can help you act, but fluent output is not proof.**
 
-## If you are an AI agent reading this
+## If you are an AI reading bAIble
 
-Do not treat this repository as a project to copy or redesign.
+Read bAIble as a **guide for collaboration**, not as a software project you are expected to copy.
 
-Your first responsibility is to **study bAIble, understand its purpose, explain it to the human, and then guide the human through establishing their own private working environment**.
+First understand:
 
-Start with [AGENT_ENTRYPOINT.md](AGENT_ENTRYPOINT.md), then [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md), [NEW_USER_AGENT.md](NEW_USER_AGENT.md), and [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md).
+- what bAIble is;
+- why it exists;
+- how it grew from practical experience;
+- how it helps a human work with AI;
+- what should remain private.
 
-If this public repository is accessible, read it directly. Do not ask the human for a ZIP merely because you have not yet understood the repository. If your current interface genuinely cannot access part of it, state that limitation precisely and use the accessible evidence.
+Then help the human use the parts that matter to them.
 
-## Welcome a human who has only the public link
+If the human is starting a new project, help establish a sensible private place for their project information before asking them to put substantial private details into the public bAIble.
 
-The human may know nothing about Git, repositories, privacy boundaries, agent architecture, or project memory.
+Do not invent history that is not documented here. Do not claim to have read material you could not access.
 
-Your job is therefore not to wait for them to request the bootstrap steps.
+## If you are a new human
 
-You should:
+You can simply tell your AI:
 
-1. learn what they want to accomplish;
-2. explain what bAIble is and why it exists;
-3. explain how it developed from generalized AI-collaboration lessons;
-4. explain what bAIble is and is not;
-5. establish the public/private boundary;
-6. determine whether a suitable private workspace exists;
-7. determine whether a private project repository exists or is needed;
-8. guide the human through creating those private places when necessary;
-9. explain what belongs in each place;
-10. identify the implementation source of truth;
-11. create or identify the initial durable records;
-12. only then begin substantial project-specific work.
+> “Read bAIble and help me use it for my work.”
 
-The human should not have to know these steps in advance.
+You do not need to know what repository, workflow, agent profile, Reality Check, or other term you need beforehand. The point of bAIble is to help you discover that together.
 
-## Your first loop
+Start with your goal.
 
-Start with:
+Then work through only what is useful:
 
-HUMAN → AGENT → bAIble → PRIVATE WORKSPACE → PRIVATE PROJECT
+**UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST**
 
-Use:
+This is a rhythm, not bureaucracy. Use more of it when the work is uncertain or important and less when the task is simple.
 
-UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST
+## The first practical boundary
 
-The public bAIble is the instruction layer. The human's private workspace and project repository contain the actual project information, decisions, evidence, memory, and implementation.
+The public bAIble is a guide. It is **not your private project memory**.
 
-## The layers
+For a real project, your AI should help you decide where important information belongs:
 
-- **bAIble** — governance and learning.
-- **rAIda** — optional orchestration layer for agents, tools, tasks, and workflow state.
-- **UnAiversed** — optional relational context for observations, decisions, projects, experiments, and lessons.
-- **Integration layer** — optional infrastructure connecting repositories, tools, CI, and execution environments.
-- **Watchdog** — optional monitoring/detection added after a workflow is observable.
-- **Reality Check** — verification mechanism crossing all layers.
+- **public bAIble** → reusable principles, safe examples, generalized lessons;
+- **private workspace** → project context, decisions, experiments, evidence, lessons, handoffs;
+- **private project** → implementation and its source of truth;
+- **secure storage** → credentials and other secrets.
 
-These are concepts and contracts, not mandatory software packages.
+If you already have suitable private places, use them. You do not need to create a complicated new system just because bAIble mentions one.
 
-## What your agent should do
+## The ideas that may grow with you
 
-1. Ask what the human is trying to achieve.
-2. Study enough of bAIble to explain the relevant concepts.
-3. Explain the public/private split before asking for substantial project information.
-4. Help establish an appropriate **private workspace** and **private project repository**.
-5. Explain what belongs in each place.
-6. Explain unfamiliar terms before relying on them.
-7. Identify what it can and cannot access.
-8. Check authority before material actions.
-9. Start with one small, reversible step.
-10. Show evidence for important results.
-11. Keep unknowns visible.
-12. Ask the human to make decisions that belong to the human.
-13. Leave a durable record when the work matters.
+You may encounter these later:
 
-Ask at any point: What are we doing? Why? What is known versus assumed? What can you access? What will change? Can it be undone? How will success be verified? Where is this stored? Is it public or private?
+- **rAIda** — useful when several agents, tools, or tasks need coordination;
+- **UnAiversed** — useful when relationships between context, observations, decisions, experiments, and lessons become difficult to preserve;
+- **Integration layer** — useful when several systems or execution environments need to work together;
+- **Watchdog** — useful when an existing workflow needs monitoring;
+- **Reality Check** — a verification mechanism that can be used anywhere.
 
-## Privacy first
+They are **optional**. They are not a checklist and they are not mandatory software.
 
-This repository is public. Never copy private conversations, credentials, personal identifiers, private repository contents, customer data, hidden context, or internal implementation evidence into it.
+Start with the smallest thing that helps.
+
+## What good collaboration looks like
+
+Ask:
+
+- What are we actually trying to do?
+- What do we know?
+- What are we assuming?
+- What does the AI have access to?
+- What is it allowed to change?
+- What evidence supports the result?
+- How can we check it independently?
+- What should be remembered?
+- Where should it be stored?
+- What decision belongs to the human?
+
+The AI should be willing to say **“I don't know”**, challenge an assumption when evidence warrants it, and make uncertainty visible.
+
+## Privacy
+
+This repository is public.
+
+Never put credentials, private conversations, personal identifiers, confidential/customer information, private project contents, hidden context, or private implementation evidence here.
 
 See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 
-## Next
+## Where to go next
 
-- [AGENT_ENTRYPOINT.md](AGENT_ENTRYPOINT.md)
-- [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md)
-- [REPOSITORY_BOOTSTRAP.md](REPOSITORY_BOOTSTRAP.md)
-- [NEW_USER_AGENT.md](NEW_USER_AGENT.md)
-- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md)
-- [BIBLE.md](BIBLE.md)
-- [REALITY_CHECK.md](REALITY_CHECK.md)
-- [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md)
-- [RUNTIME_AND_WATCHDOG.md](RUNTIME_AND_WATCHDOG.md)
-- [UNAIVERSED_GUIDE.md](UNAIVERSED_GUIDE.md)
+- [BIBLE.md](BIBLE.md) — core principles.
+- [ORIGIN_AND_PURPOSE.md](ORIGIN_AND_PURPOSE.md) — why bAIble exists and how it evolved.
+- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gradual way to begin.
+- [BOOTSTRAP.md](BOOTSTRAP.md) — practical private workspace setup.
+- [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — guidance for an AI helping a new user.
+- [REALITY_CHECK.md](REALITY_CHECK.md) — checking whether something is actually supported.
+- [HANDOFF.md](HANDOFF.md) — preserving work between people or agents.
+- [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — reusable lessons.
+- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional private workspace templates.
 
-**Start small. Build only what solves a demonstrated problem.**
+**Start small. Learn as you go. Build only what solves a real problem.**
