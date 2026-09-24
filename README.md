@@ -1,88 +1,86 @@
-# bAIble pre-v2
+# bAIble v2
 
-**A portable governance and learning framework for AI collaboration.**
+**A living guide for humans and AI working together deliberately.**
 
-bAIble helps a human and one or more AI agents work together without treating fluent output as proof. It defines how to understand a task, classify uncertainty, act within scope, verify results, preserve project memory, and learn from failures.
+bAIble began as a practical AI development bible: rules, roles, workflows, guardrails, evaluations, and lessons learned. It has grown into a broader, portable guide for building a good working relationship with AI without confusing fluent output with truth.
+
+You do not need to understand the whole system before using it.
 
 ## Start here
 
-If you are new:
+New here? Read [START_HERE.md](START_HERE.md).
 
-1. Read [BIBLE.md](BIBLE.md) — core principles and guardrails.
-2. Follow [BOOTSTRAP.md](BOOTSTRAP.md) — create your own workspace.
-3. Read [TERMINOLOGY.md](TERMINOLOGY.md) — vocabulary and status meanings.
-4. Use [AGENT_PROFILE.md](AGENT_PROFILE.md) — define an agent's local operating contract.
-5. Use [PROVENANCE.md](PROVENANCE.md) — record where important claims come from.
-6. Use [REALITY_CHECK.md](REALITY_CHECK.md) — perform an explicit evidence checkpoint.
-7. Use [VERIFICATION_RECORD.md](VERIFICATION_RECORD.md) — record what was actually checked.
-8. Use [HANDOFF.md](HANDOFF.md) — transfer work without losing scope or uncertainty.
-9. Use [WORKSPACE_TEMPLATE/DECISIONS.md](WORKSPACE_TEMPLATE/DECISIONS.md) — make material project rules explicit instead of silently inferring them.
-10. Use [EXPERIMENTS.md](EXPERIMENTS.md) and [BOOTSTRAP_TEST.md](BOOTSTRAP_TEST.md) — run bounded experiments and test fresh-start portability.
-11. Use [SECURITY.md](SECURITY.md) — protect credentials, private data, and access.
-12. Use [LESSONS_LEARNED.md](LESSONS_LEARNED.md) and [SELF_AUDIT.md](SELF_AUDIT.md) — preserve learning and audit the public contract.
+Then use the parts that are useful for your situation:
 
-## The core idea
+- [BIBLE.md](BIBLE.md) — the core principles.
+- [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gentle path for starting with bAIble.
+- [BOOTSTRAP.md](BOOTSTRAP.md) — practical workspace setup.
+- [NEW_USER_AGENT.md](NEW_USER_AGENT.md) — guidance for an AI helping a new user.
+- [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md) — keeping private work private.
+- [REALITY_CHECK.md](REALITY_CHECK.md) — checking whether something is actually supported.
+- [VERIFICATION.md](VERIFICATION.md) — verification practice.
+- [HANDOFF.md](HANDOFF.md) — preserving work when it moves between people or agents.
+- [LESSONS_LEARNED.md](LESSONS_LEARNED.md) — reusable lessons.
+- [WORKSPACE_TEMPLATE/](WORKSPACE_TEMPLATE/) — optional starting templates for a private workspace.
 
-The framework follows:
+## The basic idea
 
-`UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST`
+Work with AI as a collaboration, not as an oracle.
 
-A result is not considered complete merely because it looks convincing. Evidence, scope, verification, and uncertainty must remain visible.
+A useful rhythm is:
 
-## The layers
+**UNDERSTAND → CLASSIFY → PLAN → ACT → VERIFY → REALITY CHECK → LEARN → PERSIST**
 
-- **bAIble** — governance, rules, guardrails, evidence, verification, and learning.
-- **rAIda** — orchestration and coordination between agents, tools, and tasks.
-- **FederAItion** — an execution/integration environment connecting repositories, tools, CI, and workflows.
-- **UnAiversed** — a contextual and relational knowledge space.
-- **Reality Check** — a cross-cutting mechanism for testing conclusions against evidence, assumptions, alternatives, and verification.
-
-These are portable concepts, not mandatory software packages. A minimal installation can be only this bAIble plus one agent and one project.
-
-## Public by design
-
-This repository is intentionally public. It must remain usable without private conversation history or access to someone else's projects.
-
-Do **not** publish:
-
-- credentials, tokens, keys, cookies, or access paths
-- personal or confidential information
-- private conversation exports
-- private repository contents
-- proprietary/customer data
-- hidden context
-- claims that depend on inaccessible sources
-
-A lesson generalized from private work may be included only when the private source is not exposed and the lesson is clearly identified as generalized.
-
-## Status vocabulary
-
-Important statements should distinguish their status:
-
-- **VERIFIED** — directly supported by accessible evidence.
-- **ESTABLISHED** — repeatedly documented or observed, but not necessarily independently verified in the current task.
-- **EXPERIMENTAL** — currently being tested.
-- **PROPOSED** — a design idea awaiting validation.
-- **PRIVATE** — intentionally excluded from this public repository.
-
-See [STATUS_TRANSITIONS.md](STATUS_TRANSITIONS.md) for promotion and regression rules.
-
-## Reality Check
-
-When evidence is incomplete, do not manufacture continuity or certainty.
+You do not have to perform every step formally every time. The point is to notice when a step matters.
 
 Ask:
 
+- What are we actually trying to do?
 - What do we know?
-- What is the source?
-- What are we inferring?
-- What remains unknown?
-- What alternative explanation matters?
-- What would falsify the conclusion?
-- What has actually been verified?
+- What are we assuming?
+- What is the AI allowed to do?
+- What evidence do we have?
+- How will we know the result is real?
+- Where should the important information be kept?
 
-For the operational record and outcomes, use [REALITY_CHECK.md](REALITY_CHECK.md).
+## Start small
 
-The blind bootstrap convergence RC is recorded in [BLIND_BOOTSTRAP_CONVERGENCE_RC.md](BLIND_BOOTSTRAP_CONVERGENCE_RC.md). Its result is **PASS-WITH-UNCERTAINTY**: two independent fresh-start exercises converged on the same boundary, while the evidence does not justify adding a universal approval system or new architecture layer.
+The smallest useful setup is simply:
+
+**HUMAN → AI → bAIble → YOUR PROJECT**
+
+If your project needs more structure later, bAIble can introduce it.
+
+- **rAIda** can help when several agents, tools, or tasks genuinely need coordination.
+- **UnAiversed** can help when relationships between context, decisions, observations, experiments, and lessons become difficult to preserve.
+- An **integration layer** can connect multiple execution environments.
+- A **Watchdog** can help monitor an observable workflow.
+- **Reality Check** can be used across all of these when verification matters.
+
+These are optional ideas, not a checklist and not mandatory software packages.
+
+## Your private work
+
+The public bAIble is the guide. It is not your private project memory.
+
+If you are starting a real project, your AI should help you establish an appropriate private place for:
+
+- project context;
+- decisions;
+- experiments;
+- evidence;
+- lessons and handoffs;
+- implementation/source of truth;
+- secrets in appropriate secure storage.
+
+Use the public repository only for material that is safe and useful to generalize.
+
+See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
+
+## A central rule
+
+**AI can help you act, but fluent output is not proof.**
+
+Good collaboration keeps uncertainty visible, checks important results, preserves useful knowledge, and leaves decisions that belong to the human with the human.
 
 **Reality outranks the document.**
