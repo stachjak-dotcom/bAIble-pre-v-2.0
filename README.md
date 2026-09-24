@@ -17,6 +17,9 @@ New here? Read [START_HERE.md](START_HERE.md).
 
 Then use only the parts that are useful to you:
 
+- [WHEEAILS.md](WHEEAILS.md) — the beginner path when the full bAIble feels like too much.
+- [AGENT_QUICK_START.md](AGENT_QUICK_START.md) — compact practical agent discipline.
+- [AGENT_EVALS.md](AGENT_EVALS.md) — practical agent-behaviour scenarios.
 - [BIBLE.md](BIBLE.md) — the core principles and working discipline.
 - [ONBOARDING_FLOW.md](ONBOARDING_FLOW.md) — a gradual path for getting started.
 - [BOOTSTRAP.md](BOOTSTRAP.md) — practical workspace setup.
