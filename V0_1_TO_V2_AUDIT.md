@@ -56,7 +56,7 @@ The original evaluation scenarios are still represented by the current verificat
 
 This is an evolution, not something that should be falsely presented as part of v0.1. It belongs to v2's expansion.
 
-### 6. rAIda, UnAiversed and Watchdog are v2 extensions
+### 6. rAIda, Basecamp and Watchdog are v2 extensions
 
 These are not required to understand the v0.1 foundation. They remain optional layers.
 
