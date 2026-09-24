@@ -1,8 +1,11 @@
 # Origin and Purpose
 
+> *Píseň první — Vznik jAIzyka.*  
+> *Píseň druhá — L(A)Iving together.*
+
 ## Why bAIble exists
 
-bAIble exists to make human–AI collaboration **repeatable, understandable, verifiable, and safer to evolve**.
+bAIble exists to make human–AI collaboration **repeatable, understandable, verifiable, and safer to evolve** — without taking the life out of the collaboration itself.
 
 A capable model can produce fluent answers, code, plans, and explanations. That fluency does not by itself establish that the answer is correct, that the requested action was authorized, that the work was actually performed, or that the result can be reproduced later.
 
