@@ -2,6 +2,14 @@
 
 Use this format when transferring work between humans, agents, tools, or sessions.
 
+## Role-aware handoff
+
+A handoff is not only a progress note. It preserves the responsibility chain between roles. Record the sender's role, the receiver's role, and any authority or approval boundary that matters.
+
+- **From role:**
+- **To role:**
+- **Authority boundary:**
+
 ## Minimal contract
 
 - **Task:**
