@@ -14,7 +14,7 @@ A new user should be able to start without hidden context.
 10. Record verification separately using [VERIFICATION.md](VERIFICATION.md).
 11. Transfer work using [HANDOFF.md](HANDOFF.md) when another human, agent, tool, or session takes over.
 12. Add rAIda only when coordination becomes useful.
-13. Add UnAiversed only when relational context solves a real problem.
+13. Add Basecamp only when relational context solves a real problem.
 14. Add an integration layer only when multiple execution surfaces need coordination.
 15. Add a watchdog only after the workflow is observable.
 16. Promote lessons into permanent rules only after validation.
