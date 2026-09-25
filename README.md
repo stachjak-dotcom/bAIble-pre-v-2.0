@@ -127,3 +127,11 @@ See [PUBLIC_PRIVATE_BOUNDARY.md](PUBLIC_PRIVATE_BOUNDARY.md).
 Good collaboration keeps uncertainty visible, checks important results, preserves useful knowledge, and leaves decisions that belong to the human with the human.
 
 **Reality outranks the document.**
+
+## Next generation
+
+The next generation of bAIble is becoming an environment that helps both humans and agents find their place in the system, understand their role, work within scope, leave evidence, verify results, and know what happens next.
+
+Start with [NEXT_GENERATION_BAIBLE.md](NEXT_GENERATION_BAIBLE.md), then see [WOLF_ONBOARDING.md](WOLF_ONBOARDING.md) for the onboarding guide.
+
+The public guide describes the concepts. Project-specific implementations remain private.
